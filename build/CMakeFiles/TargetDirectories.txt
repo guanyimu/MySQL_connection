@@ -1,0 +1,3 @@
+/home/xiangbei/project/MySQL_connection/build/CMakeFiles/CONNECTION.dir
+/home/xiangbei/project/MySQL_connection/build/CMakeFiles/edit_cache.dir
+/home/xiangbei/project/MySQL_connection/build/CMakeFiles/rebuild_cache.dir
