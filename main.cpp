@@ -8,7 +8,7 @@
 using namespace std;
 
 int times;
-int thread_num = 10;
+int thread_num = 50;
 char sql[1024] = "insert into users(name, age) values('zhang san', 20);";
 
 void test_without_pool()

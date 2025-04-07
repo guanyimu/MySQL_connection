@@ -116,6 +116,7 @@ shared_ptr<Connection> ConnectionPool::getConnection()
         // 需要等待空闲线程,比如新创建的或者归还的
         if (cv_status::timeout == cv.wait_for(lock, chrono::milliseconds(_connectionTimeout)))
         {
+            cout << _connectionTimeout << endl;
             if (_connectionQueue.empty())
             {
                 // 说明是超时了还没有线程可以用
